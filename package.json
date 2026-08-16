@@ -1,12 +1,14 @@
 {
-  "name": "zell-bot",
-  "version": "1.0.0",
+  "name": "zelapi-telegram-bot",
+  "version": "2.0.0",
   "main": "bot.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.64.0",
-    "axios": "^1.7.2"
+    "axios": "^1.11.0",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
   }
 }
