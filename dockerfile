@@ -7,5 +7,5 @@ RUN echo "=== ISI FOLDER SEBELUM NPM ===" && ls -la
 RUN npm install
 RUN echo "=== ISI FOLDER SETELAH NPM ===" && ls -la
 
-COPY .
+COPY . .
 CMD ["node", "bot.js"]
